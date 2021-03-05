@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #77bf8c;
+  font-size: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  float: left;
+  width: 45%;
+  text-align: center;
+  background-color: whitesmoke;
+  margin-left: 35px;
+  margin-top: 5%;
+  border: 3px solid black;
+}
+
+.container-right{
+  float: right;
+  width: 49%;
+  margin: auto;
+  text-align: center;
+}
+
+.naImage{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.travelList{
+  font-size: 2em;
+}
+
+.textBox{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 110%;
+}
+
+.submitButton{
+  margin-left: 10px;
+  background-color: #579c69;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white;
+  font-weight:bold;
+}
+
+.buttonHover:hover{
+  transition-duration: 0.4s;
+  background-color: #42754f;
+}
